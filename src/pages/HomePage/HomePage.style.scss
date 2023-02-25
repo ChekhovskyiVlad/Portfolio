@@ -1,0 +1,295 @@
+@import '../../var.scss';
+.startpiece{
+    margin-top: 190px;
+    &__title{
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    &__title-2{
+        color: $blue;
+    }
+    &__img{
+        margin-left: 630px;
+        margin-top: -80px;
+        max-width: 660px;
+        position: absolute;
+    }
+    &__arrow{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: -100px;
+    }
+    &__container{
+        display: flex;
+    }
+    .buttons{
+            cursor: pointer;
+            padding-top: 32px;
+        &__button1{
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+            background-color: $blue;
+            color: $general;
+            border-radius: 24px;
+            border: none;
+            padding: 10px 32px;
+            margin-right: 24px;
+            cursor: pointer;
+
+        }
+        &__button2{
+            cursor: pointer;
+            background-color: $black;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+            color: $general;
+            border: none;
+            padding: 10px 32px;
+            border-radius: 24px;
+        }
+        &__button-href{
+            color: $general;
+            text-decoration: none;
+        }
+    }
+}
+
+.about{
+    background-repeat: no-repeat;
+    padding-top: 440px;
+    &__container{
+    display: flex;
+
+    }
+    &__img{
+        padding-left: 160px;
+        padding-top: -50px;
+    }
+    &__img2{
+        position: absolute;
+        padding-top: 320px;
+        padding-left: 200px;
+
+    }
+    &__img3{
+        position: absolute;
+        padding-left: 350px;
+    }
+    &__img4{
+        position: absolute;
+        padding-top: 350px;
+    }
+    &__title{
+        font-size: 64px;
+        font-weight: 700;
+    }
+    &__title-2{
+        color: $blue;
+    }
+    &__text{
+        width: 390px;
+        color: rgba(238, 238, 238, 0.75);
+    }
+}
+
+.skills{
+    padding-top: 100px;
+    &__title{
+        font-weight: 700;
+        font-size: 64px;
+        display: flex;
+        justify-content: center;
+    }
+    &__nav{
+
+        padding-top: 60px;
+    }
+    &__list-item{
+        padding-top: 30px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    &__list-item::before{
+        content:"";
+    background: $blue;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-right: 0.7rem;
+    margin-bottom: 0.2rem;
+    }
+
+    &__list-item-img{
+        padding-left: 15px;
+        margin-bottom: -9px;
+    }
+    &__img{
+        position: absolute;
+        padding-left: 700px;
+        padding-bottom: -200px;
+    }
+}
+
+.works{
+    padding-top: 150px;
+    padding-bottom: 630px;
+    &__background{
+        width: 100%;
+        position: absolute;
+        z-index: -100;
+    }
+    &__title{
+        margin-top: 270px;
+        font-weight: 700;
+        font-size: 64px;
+    }
+    &__title span{
+        color: $blue;
+    }
+    &__inner{
+        display: flex;
+        padding-top: 40px;
+        cursor: pointer;
+    }
+
+    &__list-item{
+        transition: 0.3s;
+        margin-right: 45px;
+        width: 390px;
+        height: 280px;
+        background: rgba(57, 62, 70, 0.5);
+        backdrop-filter: blur(2px);
+        border-radius: 16px;
+    }
+    &__list-item:hover{
+        transform: translateY(-100px);
+    }
+
+
+
+    .project{
+        &__container{
+            max-width: 350px;
+            max-height: 400px;
+            margin: 0 auto;
+            padding: 0 15px;
+            width: 100%;
+        }
+
+        &__imgs{
+            display: flex;
+            justify-content: flex-end;
+            gap: 5px;
+            padding-top: 15px;
+        }
+        &__imgs-extlink{
+            width: 30px;
+            fill: #56E2E9;
+            position: absolute;
+        }
+        &__imgs-github{
+            padding-right: 35px;
+            padding-top: 1px;
+        }
+        &__title{
+            color: $blue;
+            font-size: 22px;
+        }
+        a{
+            margin: 0;
+        }
+        &__text{
+            font-size: 16px;
+        }
+        &__skills-container{
+            padding-top: 20px;
+            display: flex;
+            align-items: flex-end;
+
+        }
+        &__skills-container-github{
+            margin-top: 25px;
+        }
+        &__skills-skill{
+            color: #56E2E9;
+            margin-right: 7px;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+
+}
+
+.message{
+    &__container{
+        display: flex;
+    }
+    &__img{
+        position: absolute;
+    }
+    &__img-keyboard{
+        position: absolute;
+        padding-left: 770px;
+    }
+    &__img-email{
+        position: absolute;
+        padding-left: 1050px;
+    }
+    &__title{
+        white-space: nowrap;
+        line-height: 80px;
+        font-size: 64px;
+        font-weight: 700;
+    }
+    &__title span{
+        color: $blue;
+    }
+    &__form{
+        position: relative;
+        padding-top: 40px;
+        padding-left: 170px;
+    }
+    &__form input {
+        border: none;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: #393E46;
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    &__form input::placeholder {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    &__form-text{
+        resize: none;
+        border-radius: 16px;
+        background-color: #393E46;
+        border: none;
+    }
+
+    &__form-button{
+        color: $general;
+        background-color: $blue;
+        font-weight: 700;
+        border: none;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 24px;
+        padding: 11px 60px 10px 27px;
+        cursor: pointer;
+    }
+    &__form-button-img {
+        position: absolute;
+        padding-left: 10px;
+
+    }
+}
+
+.message__form-text::placeholder{
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 5px;
+}

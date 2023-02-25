@@ -1,0 +1,21 @@
+@import '../../var.scss';
+.nav{
+    justify-content: space-between;
+    margin-top: 24px;
+    display: flex;
+    &__list{
+        width: 500px;
+        justify-content: space-between;
+        display: flex;
+    }
+    &__list-item{
+        text-decoration: none;
+        color: $general;
+        list-style: none;
+        cursor: pointer;
+        transition: all ease 0.3s;
+    }
+    &__list-item:hover{
+        color: $blue;
+    }
+}
