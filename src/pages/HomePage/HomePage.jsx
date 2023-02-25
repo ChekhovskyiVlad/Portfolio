@@ -39,13 +39,13 @@ export const HomePage = () => {
       <img src='/img/startpiece__img.png' className='startpiece__img'/>
     </div>
     <div className="container__fluid">
-    <motion.img initial="hidden" whileInView="visible"  variants={textAnimation} src='/public/img/arrow.png' className='startpiece__arrow'/>
+    <motion.img initial="hidden" whileInView="visible"  variants={textAnimation} src='/img/arrow.png' className='startpiece__arrow'/>
     </div>
       <div className="buttons">
         <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button1'><a href='https://www.upwork.com/freelancers/~011cf41edfa5cd2a8a' className='buttons__button-href' >Hire me</a></motion.button>
-        <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button2'><a href='../../../public/resume/Resume.pdf'className='buttons__button-href' >Download resume</a></motion.button>
+        <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button2'><a href='/resume/Resume.pdf'className='buttons__button-href' >Download resume</a></motion.button>
       </div>
-      <img src='../../../public/img/music__icon.svg' className='about__img4' />
+      <img src='/img/music__icon.svg' className='about__img4' />
       </div>
     </article>
 
@@ -61,9 +61,9 @@ export const HomePage = () => {
       projects.
       </motion.p>
       </div>
-      <img src='../../../public/img/light.svg' className='about__img3'/>
-      <img  src='../../../public/img/arrow__lang.svg' className='about__img2'/>
-      <img src="../../../public/img/about__back.png " alt="about" className='about__img'/>
+      <img src='/img/light.svg' className='about__img3'/>
+      <img  src='/img/arrow__lang.svg' className='about__img2'/>
+      <img src="/img/about__back.png " alt="about" className='about__img'/>
         </div>
       </div>
     </article>
@@ -72,7 +72,7 @@ export const HomePage = () => {
 
 
     <article className="works">
-        <img src="../../../public/img/works__background.png" alt="background" className="works__background" />
+        <img src="/img/works__background.png" alt="background" className="works__background" />
         <div className="container">
         <motion.h2 initial="hidden" whileInView="visible" variants={textAnimation} custom={1}  type={spring} className='works__title'>My recent <span>works</span></motion.h2>
         <motion.ul initial="hidden" whileInView="visible" className="works__list">
@@ -82,8 +82,8 @@ export const HomePage = () => {
 
             <div className="project__container">
             <div className="project__imgs">
-              <a href='https://github.com/ChekhovskyiVlad/GithubUsers'><img src='../../../public/img/github.svg' className='project__imgs-github' /></a>
-              <img src='../../../public/img/icons8-external-link.svg' className='project__imgs-extlink' />
+              <a href='https://github.com/ChekhovskyiVlad/GithubUsers'><img src='/img/github.svg' className='project__imgs-github' /></a>
+              <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
               <h5 className="project__title">Github users</h5>
               <p className="project__text">The app is looking for the user's github. Used by GitHub API</p>
@@ -103,8 +103,8 @@ export const HomePage = () => {
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
           <div className="project__container">
             <div className="project__imgs">
-              <a href='https://github.com/ChekhovskyiVlad/Countries'><img src='../../../public/img/github.svg' className='project__imgs-github' /></a>
-              <img src='../../../public/img/icons8-external-link.svg' className='project__imgs-extlink' />
+              <a href='https://github.com/ChekhovskyiVlad/Countries'><img src='/img/github.svg' className='project__imgs-github' /></a>
+              <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
               <h5 className="project__title">Countries</h5>
               <p className="project__text">Searches for countries, the project is made both in Javascript and in Typescript</p>
@@ -124,8 +124,8 @@ export const HomePage = () => {
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
           <div className="project__container">
             <div className="project__imgs">
-              <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners'><img src='../../../public/img/github.svg' className='project__imgs-github' /></a>
-              <img src='../../../public/img/icons8-external-link.svg' className='project__imgs-extlink' />
+              <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners'><img src='/img/github.svg' className='project__imgs-github' /></a>
+              <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
               <h5 className="project__title">The set of mini-projects</h5>
               <p className="project__text">In this work I have collected all my mini-projects that I did during the training in react</p>
@@ -148,18 +148,18 @@ export const HomePage = () => {
       <div className="container">
         <div className="message__container">
       <div>
-        <img src='../../../public/img/keyboard.svg' className='message__img-keyboard'/>
+        <img src='/img/keyboard.svg' className='message__img-keyboard'/>
       <motion.h1 initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className="message__title">Got a project in <br></br><span>mind? </span></motion.h1>
-      <img src="../../../public/img/message__img.png" alt="img" className="message__img"/>
+      <img src="/img/message__img.png" alt="img" className="message__img"/>
       </div>
       <motion.form custom={3} initial="hidden" whileInView="visible" variants={textAnimation} className="message__form" action="https://formsubmit.co/v.chek1218@gmail.com" method="POST" >
         <input type="text" className='message__form-name' placeholder='Name' required />
         <input type="email" className="message__form-email" placeholder='Email' required />
         <textarea className="message__form-text" maxLength="450" cols="60" rows="10" placeholder='Message' required />
-        <button className='message__form-button'>Send Message<img src='../../../public/img/message.svg' className='message__form-button-img'/></button>
+        <button className='message__form-button'>Send Message<img src='/img/message.svg' className='message__form-button-img'/></button>
       </motion.form>
       </div>
-      <img src='../../../public/img/mail.svg' className='message__img-email'/>
+      <img src='/img/mail.svg' className='message__img-email'/>
 
       </div>
     </article>
