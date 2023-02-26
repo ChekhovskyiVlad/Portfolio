@@ -44,7 +44,7 @@ export const Header = () => {
         <div className="nav">
           <motion.div variants={headerAnimation} className="nav__logo">VladChekh</motion.div>
           <ul className="nav__list">
-           <a href="" className="nav__list-item"> <motion.li className='nav__list-item'  variants={headerAnimation}>Home</motion.li></a>
+           <a href="" className="nav__list-item"><motion.li className='nav__list-item'  variants={headerAnimation}>Home</motion.li></a>
             <motion.li className="nav__list-item" onClick={() => ScrollAbout()} variants={headerAnimation}>About Me</motion.li>
             <motion.li className="nav__list-item" onClick={() => ScrollWorks()} variants={headerAnimation}>Works</motion.li>
             <motion.li className="nav__list-item" onClick={() => ScrollContact()} variants={headerAnimation}>Contact</motion.li>
