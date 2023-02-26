@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { motion, spring } from 'framer-motion'
 import './HomePage.style.scss'
 export const HomePage = () => {

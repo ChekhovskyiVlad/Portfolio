@@ -98,57 +98,18 @@
     }
 }
 
-.skills{
-    padding-top: 100px;
-    &__title{
-        font-weight: 700;
-        font-size: 64px;
-        display: flex;
-        justify-content: center;
-    }
-    &__nav{
-
-        padding-top: 60px;
-    }
-    &__list-item{
-        padding-top: 30px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    &__list-item::before{
-        content:"";
-    background: $blue;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    margin-right: 0.7rem;
-    margin-bottom: 0.2rem;
-    }
-
-    &__list-item-img{
-        padding-left: 15px;
-        margin-bottom: -9px;
-    }
-    &__img{
-        position: absolute;
-        padding-left: 700px;
-        padding-bottom: -200px;
-    }
-}
 
 .works{
     padding-top: 150px;
     padding-bottom: 630px;
     &__background{
         width: 100%;
+        height: 100%;
         position: absolute;
         z-index: -100;
     }
     &__title{
-        margin-top: 270px;
+        margin-top: 220px;
         font-weight: 700;
         font-size: 64px;
     }
@@ -177,6 +138,7 @@
 
 
     .project{
+        flex-wrap: wrap;
         &__container{
             max-width: 350px;
             max-height: 400px;
@@ -230,6 +192,7 @@
 }
 
 .message{
+    margin-top: -200px;
     &__container{
         display: flex;
     }
@@ -316,8 +279,27 @@
     .buttons__button2{
         font-size: 16px;
     }
+    .about__title{
+        font-size: 52px;
+    }
+    .about__text{
+        font-size: 16px;
+    }
     .about__img{
         width: 600px;
+    }
+    .works__inner{
+        display: flex;
+    }
+    .works__list{
+        justify-content: center;
+
+    }
+    .works__background{
+        height: 1200px;
+    }
+    .works__title{
+        margin-top: 100px;
     }
 }
 @media (max-width: 992px) {
