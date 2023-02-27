@@ -146,11 +146,16 @@ export const HomePage = () => {
     <article className="message">
       <div className="container">
         <div className="message__container">
+          <div className="message__inner">
+
       <div>
+
         <img src='/img/keyboard.svg' className='message__img-keyboard'/>
+
       <motion.h1 initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className="message__title">Got a project in <br></br><span>mind? </span></motion.h1>
       <img src="/img/message__img.png" alt="img" className="message__img"/>
       </div>
+          </div>
       <motion.form custom={3} initial="hidden" whileInView="visible" variants={textAnimation} className="message__form" action="https://formsubmit.co/v.chek1218@gmail.com" method="POST" >
         <input type="text" className='message__form-name' placeholder='Name' required />
         <input type="email" className="message__form-email" placeholder='Email' required />
