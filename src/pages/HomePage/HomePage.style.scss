@@ -101,6 +101,8 @@
 
 .works{
     padding-top: 150px;
+    display: flex;
+    justify-content: center;
     padding-bottom: 630px;
     &__background{
         width: 100%;
@@ -119,6 +121,7 @@
     &__inner{
         display: flex;
         padding-top: 40px;
+        justify-content: center;
         cursor: pointer;
     }
 
@@ -355,6 +358,12 @@
     .buttons__button2{
         padding: 6px 26px;
         font-size: 14px;
+    }
+    .about__img{
+        display: none;
+    }
+    .about__img2{
+        display: none;
     }
 }
 
