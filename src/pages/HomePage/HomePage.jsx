@@ -133,10 +133,10 @@ export const HomePage = () => {
               <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners' className='project__text'><img src='/img/github.svg' className='project__imgs-github' /></a>
               <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
-            <a href="https://boisterous-pastelito-21c07c.netlify.app/" className='project__text' >
+            <a href="https://boisterous-pastelito-21c07c.netlify.app/home" className='project__text' >
               <h5 className="project__title">The set of mini-projects</h5>
             </a>
-            <a href="https://boisterous-pastelito-21c07c.netlify.app/" className='project__text'>
+            <a href="https://boisterous-pastelito-21c07c.netlify.app/home" className='project__text'>
               <p className="project__text">In this work I have collected all my mini-projects that I did during the training in react</p>
             </a>
               <ul className="project__skills">
