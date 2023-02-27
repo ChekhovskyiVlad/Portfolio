@@ -78,7 +78,6 @@ export const HomePage = () => {
         <motion.ul initial="hidden" whileInView="visible" className="works__list">
           <div className="works__inner">
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} transition={{}} className="works__list-item">
-          <a href="https://unrivaled-queijadas-360123.netlify.app/">
 
 
             <div className="project__container">
@@ -86,8 +85,12 @@ export const HomePage = () => {
               <a href='https://github.com/ChekhovskyiVlad/GithubUsers'><img src='/img/github.svg' className='project__imgs-github' /></a>
               <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
+          <a href="https://unrivaled-queijadas-360123.netlify.app/" className='project__text'>
+
               <h5 className="project__title">Github users</h5>
               <p className="project__text">The app is looking for the user's github. Used by GitHub API</p>
+            </a>
+
               <ul className="project__skills">
                 <div className="project__skills-container project__skills-container-github">
 
@@ -97,20 +100,20 @@ export const HomePage = () => {
                 </div>
               </ul>
             </div>
-          </a>
 
 
          </motion.li>
 
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
-            <a href="https://dainty-meringue-bd380f.netlify.app/">
           <div className="project__container">
             <div className="project__imgs">
               <a href='https://github.com/ChekhovskyiVlad/Countries'><img src='/img/github.svg' className='project__imgs-github' /></a>
               <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
+            <a href="https://dainty-meringue-bd380f.netlify.app/" className='project__text' >
               <h5 className="project__title">Countries</h5>
               <p className="project__text">Searches for countries, the project is made both in Javascript and in Typescript</p>
+            </a>
               <ul className="project__skills">
                 <div className="project__skills-container">
 
@@ -122,18 +125,20 @@ export const HomePage = () => {
 
               </ul>
             </div>
-            </a>
           </motion.li>
 
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
-            <a href="https://boisterous-pastelito-21c07c.netlify.app/home">
           <div className="project__container">
             <div className="project__imgs">
-              <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners'><img src='/img/github.svg' className='project__imgs-github' /></a>
+              <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners' className='project__text'><img src='/img/github.svg' className='project__imgs-github' /></a>
               <img src='/img/icons8-external-link.svg' className='project__imgs-extlink' />
             </div>
+            <a href="https://boisterous-pastelito-21c07c.netlify.app/home" className='project__text' >
               <h5 className="project__title">The set of mini-projects</h5>
+            </a>
+            <a href="https://boisterous-pastelito-21c07c.netlify.app/home" className='project__text'>
               <p className="project__text">In this work I have collected all my mini-projects that I did during the training in react</p>
+            </a>
               <ul className="project__skills">
                 <div className="project__skills-container">
 
@@ -142,7 +147,6 @@ export const HomePage = () => {
                 </div>
               </ul>
             </div>
-            </a>
          </motion.li>
 
           </div>
