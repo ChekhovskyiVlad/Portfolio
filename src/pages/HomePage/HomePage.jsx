@@ -71,7 +71,6 @@ export const HomePage = () => {
 
 
     <article className="works">
-      <div className="container">
 
         <img src="/img/works__background.png" alt="background" className="works__background" />
         <div className="container">
@@ -142,7 +141,6 @@ export const HomePage = () => {
 
           </div>
         </motion.ul>
-        </div>
       </div>
     </article>
 
