@@ -350,6 +350,9 @@
         height: 400px;
         margin-left: 400px;
     }
+    .buttons{
+        padding-left: 1px;
+    }
     .buttons__button1 {
         font-size: 14px;
         padding: 6px 26px;
@@ -364,6 +367,12 @@
     }
     .about__img2{
         display: none;
+    }
+    .message__form{
+        padding: 0;
+    }
+    .message__img-keyboard{
+        padding-left: 40px;
     }
 }
 
