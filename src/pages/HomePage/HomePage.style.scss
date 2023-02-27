@@ -361,11 +361,11 @@
     }
     .buttons__button1 {
         font-size: 14px;
-        padding: 6px 26px;
+        padding: 6px 16px;
 
     }
     .buttons__button2{
-        padding: 6px 26px;
+        padding: 6px 16px;
         font-size: 14px;
     }
     .about__img{
@@ -438,6 +438,12 @@
     }
     .message__form input {
         width: 170px;
+    }
+    .buttons__button1{
+        width: 60px;
+    }
+    .buttons__button2{
+        width: 60px;
     }
 }
 
