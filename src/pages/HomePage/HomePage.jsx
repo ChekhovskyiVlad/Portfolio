@@ -78,6 +78,7 @@ export const HomePage = () => {
         <motion.ul initial="hidden" whileInView="visible" className="works__list">
           <div className="works__inner">
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} transition={{}} className="works__list-item">
+          <a href="https://unrivaled-queijadas-360123.netlify.app/">
 
 
             <div className="project__container">
@@ -96,11 +97,13 @@ export const HomePage = () => {
                 </div>
               </ul>
             </div>
+          </a>
 
 
          </motion.li>
 
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
+            <a href="https://dainty-meringue-bd380f.netlify.app/">
           <div className="project__container">
             <div className="project__imgs">
               <a href='https://github.com/ChekhovskyiVlad/Countries'><img src='/img/github.svg' className='project__imgs-github' /></a>
@@ -119,9 +122,11 @@ export const HomePage = () => {
 
               </ul>
             </div>
+            </a>
           </motion.li>
 
           <motion.li initial="hidden" whileInView="visible" variants={textAnimation2} className="works__list-item">
+            <a href="https://boisterous-pastelito-21c07c.netlify.app/home">
           <div className="project__container">
             <div className="project__imgs">
               <a href='https://github.com/ChekhovskyiVlad/projects-for-beginners'><img src='/img/github.svg' className='project__imgs-github' /></a>
@@ -137,6 +142,7 @@ export const HomePage = () => {
                 </div>
               </ul>
             </div>
+            </a>
          </motion.li>
 
           </div>
