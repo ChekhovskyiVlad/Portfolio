@@ -328,6 +328,13 @@
     .buttons{
         flex-direction: column;
     }
+    .buttons__button1{
+        width: 100px;
+    }
+
+    .buttons__button2{
+        width: 100px;
+    }
     .startpiece__img{
         width: 430px;
         height: 500px;
@@ -340,7 +347,7 @@
         flex-wrap: wrap;
     }
     .message__img-email{
-        padding-left: 300px;
+        padding-left: 250px;
     }
 }
 @media (max-width: 767px) {
@@ -375,6 +382,9 @@
     }
     .about__img3{
         padding-left: 100px;
+    }
+    .works{
+        padding-left: 20px;
     }
 }
 
@@ -427,7 +437,7 @@
         width: 350px;
     }
     .message__form input {
-        width: 150px;
+        width: 170px;
     }
 }
 
