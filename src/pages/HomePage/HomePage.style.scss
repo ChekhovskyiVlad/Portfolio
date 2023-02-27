@@ -237,6 +237,7 @@
         background-color: #393E46;
         margin-bottom: 25px;
         margin-right: 25px;
+        width: 250px;
     }
     &__form input::placeholder {
         font-weight: 700;
@@ -324,6 +325,9 @@
     .startpiece__title{
         font-size: 56px;
     }
+    .buttons{
+        flex-direction: column;
+    }
     .startpiece__img{
         width: 430px;
         height: 500px;
@@ -368,6 +372,9 @@
     }
     .message__img-keyboard{
         padding-left: 40px;
+    }
+    .about__img3{
+        padding-left: 100px;
     }
 }
 
@@ -418,6 +425,9 @@
     }
     .message__form-text{
         width: 350px;
+    }
+    .message__form input {
+        width: 150px;
     }
 }
 
