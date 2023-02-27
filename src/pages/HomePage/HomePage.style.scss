@@ -329,11 +329,12 @@
         flex-direction: column;
     }
     .buttons__button1{
-        width: 100px;
+        margin-bottom: 10px;
+        width: 150px;
     }
 
     .buttons__button2{
-        width: 100px;
+        width: 210px;
     }
     .startpiece__img{
         width: 430px;
@@ -383,9 +384,6 @@
     .about__img3{
         padding-left: 100px;
     }
-    .works{
-        padding-left: 20px;
-    }
 }
 
 @media (max-width:530px) {
@@ -412,17 +410,11 @@
         width: 230px;
         font-size: 14px;
     }
-    .works{
-        padding: 0 25px;
-    }
+
     .works__title{
         font-size: 32px;
     }
-    .works__list{
-    }
-    .works__list-item{
-        width: 350px;
-    }
+
     .message{
         margin: 0;
     }
@@ -437,7 +429,7 @@
         width: 350px;
     }
     .message__form input {
-        width: 170px;
+        width: 150px;
     }
 }
 
