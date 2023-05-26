@@ -42,7 +42,7 @@ export const HomePage = () => {
     </div>
       <div className="buttons">
         <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button1'><a href='https://www.upwork.com/freelancers/~011cf41edfa5cd2a8a' className='buttons__button-href' >Hire me</a></motion.button>
-        <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button2'><a href='/resume/Resume.pdf'className='buttons__button-href' >Download resume</a></motion.button>
+        <motion.button initial="hidden" whileInView="visible" custom={2} variants={textAnimation} className='buttons__button2'><a href='/resume/Resume (4).pdf'className='buttons__button-href' >Download resume</a></motion.button>
       </div>
       <img src='/img/music__icon.svg' className='about__img4' />
       </div>
